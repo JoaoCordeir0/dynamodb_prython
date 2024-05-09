@@ -15,8 +15,10 @@ def list_tables():
 def list_table_values():        
     response = dynamodb.scan(TableName='Users')
     
+    print("Valores na tabela:")
     for item in response['Items']:        
         print(item)
 
 list_tables()
+print()
 list_table_values()

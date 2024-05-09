@@ -1,6 +1,6 @@
 ### Para executar é necessário adicionar as credenciais do AWS
 
-#### Modelo: /.aws/credentials
+#### Exemplo: /.aws/credentials
 
 ``` aws
 [default]
